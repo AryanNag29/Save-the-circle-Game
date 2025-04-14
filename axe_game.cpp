@@ -53,7 +53,7 @@ int main()
     {
         BeginDrawing();
         ClearBackground(BLACK);
-        DrawText("Try not to touch square",540,0,20,BLUE);
+        DrawText("Try not to touch the square",540,0,20,BLUE);
         DrawText(TextFormat("Score: %d", score), 10, 10, 20, GREEN); // Display score
         
         if (collision_with_axe)
