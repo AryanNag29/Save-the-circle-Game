@@ -9,7 +9,7 @@ int main()
     int height = 500;
     InitWindow(width, height, "Save the circle");
 
-    // circle coordinates
+    // circle coordinate
     int circle_x{250};
     int circle_y{250};
     int circle_radius{50}; // radius of the circle
